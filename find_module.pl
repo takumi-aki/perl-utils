@@ -4,7 +4,6 @@ use strict;
 use warnings;
 
 use File::Find 'find';
-use lib "$ENV{HOME}/perl5/lib/perl5";
 
 my $list_dir = "$ENV{HOME}/.vim/dict/";
 my $list_file = "perl_module_name.dict";
